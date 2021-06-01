@@ -54,7 +54,7 @@ class Employee:
     def Explain(self):
         return f"This employee is {self.fname}{self.lname}"
 
-    # this property decorator is used to make methods called directly as an attribute rather than as fn() in print()
+    # This property decorator is used to make methods called directly as an attribute rather than as fn() in print()
     @property
     def email(self):
         return f"{self.fname}.{self.lname}@gmail.com"
